@@ -1,0 +1,61 @@
+.navbar {
+  color: white;
+  fill: #ffffff;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 67px;
+  background: linear-gradient(
+    to right,
+    rgb(86, 69, 127),
+    rgb(1, 23, 63),
+    rgb(1, 23, 63)
+  );
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+.introduction::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar__logo > img {
+  width: 12.6rem;
+  height: 12.6rem;
+  object-fit: contain;
+}
+.navItems {
+  display: flex;
+}
+.navItems > a {
+  padding: 1.2rem;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  fill: #ffffff;
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .navItems {
+    transform: scale(0);
+    display: none;
+  }
+  .navbar__quoteButton {
+    display: none;
+  }
+  .navbar__quoteButton__primary {
+    display: flex;
+    width: 100px;
+    min-height: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+}

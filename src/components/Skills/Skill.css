@@ -1,0 +1,38 @@
+.skill {
+  padding: 2rem;
+  height: 50vh;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill > img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.skill > h3 {
+  font-family: var(--font-family2);
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skill > p {
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-wrap: break-word;
+  color: rgb(56, 55, 55);
+  margin-left: 5vw;
+}
+
+.skill:hover {
+  cursor: pointer;
+  border-color: var(--color-primary);
+}

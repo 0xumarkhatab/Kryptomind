@@ -1,0 +1,128 @@
+.introduction {
+  display: flex;
+  background: linear-gradient(to right, rgb(1, 23, 63), rgb(1, 23, 63));
+  color: white;
+  padding: 2rem;
+  margin-top: 80px;
+}
+.introduction__left {
+  flex: 0.5;
+  width: 60vw;
+  margin-bottom: 40px;
+}
+
+.introduction__left > h3 {
+  font-size: min(10vw, 4rem);
+  line-height: 1.2em;
+  font-weight: 600;
+  font-family: "Montserrat", Sans-serif;
+  animation: fadeInIntro 5s;
+}
+.introduction__left > p {
+  font-weight: 200;
+  font-family: Sans-serif;
+  width: fit-content;
+  font-size: 1.3em;
+  animation: leftToRight 5s;
+}
+.introduction__left > hr {
+  display: none;
+}
+
+.introduction__right {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 4rem;
+  flex: 0.5;
+}
+
+.introduction__right > div.main > img {
+  height: 60vh;
+  margin-top: 30px;
+  object-fit: contain;
+  animation: fadeInMain 3s;
+  z-index: 2;
+}
+
+.introduction__right > div.top__left > img,
+.introduction__right > div.top__right > img {
+  object-fit: contain;
+  height: 18vh;
+  border-radius: 10px;
+  animation: fadeInCorner 3s;
+  z-index: 3;
+}
+.introduction__right > div.top__left > img {
+  position: relative;
+  left: 30%;
+}
+.introduction__right > div.top__right > img {
+  position: relative;
+  top: 50vh;
+  right: 30%;
+}
+
+/* Animations */
+@keyframes fadeInMain {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 60vh;
+  }
+}
+
+@keyframes fadeInCorner {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 18vh;
+  }
+}
+@keyframes fadeInIntro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes leftToRight {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  25% {
+    opacity: 0.25;
+    width: fit-content;
+  }
+
+  100% {
+    opacity: 1;
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .introduction {
+    display: block;
+  }
+  .introduction__left > hr {
+    display: block;
+  }
+
+  .introduction__right {
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  .introduction__right > div.top__left > img {
+    left: 50px;
+    bottom: 5vh;
+  }
+}

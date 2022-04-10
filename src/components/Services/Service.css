@@ -1,0 +1,19 @@
+.service {
+  width: 25vw;
+}
+.service > h1 {
+  font-family: var(--font-family);
+  font-size: 2.4vw;
+  word-wrap: break-word;
+  width: 25vw;
+}
+.service > p {
+  width: 100%;
+  font-weight: 100;
+  color: rgb(72, 70, 60);
+  font-size: 18px;
+  line-height: 1.6rem;
+  margin: 20px;
+  margin-left: 0px;
+  font-family: sans-serif;
+}

@@ -1,0 +1,45 @@
+.quoteButton {
+  padding: 0.8rem;
+  margin-right: 2rem;
+  border: 1px solid white;
+  box-shadow: 8px 2px 2px 3px rgb(6, 28, 70);
+  width: fit-content;
+  font-family: sans-serif;
+  border-radius: 1px;
+}
+.quoteButton__primary {
+  background-color: #3576f6;
+  border: none;
+  outline: none;
+}
+.quoteButton > button {
+  outline: none;
+  border: none;
+  color: white;
+  letter-spacing: 0.9px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-size: 15px;
+}
+.quoteButton > button > p {
+  user-select: none;
+}
+
+.quoteButton:hover,
+.quoteButton__primary:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid white;
+}
+.quoteButton > button > p:hover,
+.quoteButton__primary > button > p:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .quoteButton,
+  .quoteButton__primary {
+    display: none;
+  }
+}
