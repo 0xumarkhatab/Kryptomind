@@ -1,7 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import EmailIcon from "@mui/icons-material/Email";
 
 function Contact() {
   return (
