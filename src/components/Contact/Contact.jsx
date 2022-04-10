@@ -12,11 +12,11 @@ function Contact() {
         <div className="contacts">
           <p>
             {" "}
-            <LocationOnIcon /> <p>21B,J3,Johar Town, Lahore</p>
+            <img src="./icons/location.png" /> <p>21B,J3,Johar Town, Lahore</p>
           </p>
           <p>
             {" "}
-            <EmailIcon /> <p>contact@Kryptomind.com</p>
+            <img src="./icons/mail.png" /> <p>contact@Kryptomind.com</p>
           </p>
         </div>
       </div>

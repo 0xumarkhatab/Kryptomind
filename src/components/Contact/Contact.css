@@ -8,6 +8,12 @@
   display: flex;
   align-items: center;
 }
+.contacts > p > img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
 .contacts > p > p {
   margin: 5px;
 }
