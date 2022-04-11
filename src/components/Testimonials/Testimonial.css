@@ -8,13 +8,13 @@
   border-radius: 5px;
   align-items: center;
   box-shadow: 1px 1px 1px 0.4px grey;
-  user-select: none;
 }
 .testimonial > h3 {
   font-family: var(--font-family2);
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+  user-select: none;
 }
 .testimonial > img {
   width: 30px;
@@ -30,11 +30,9 @@
   word-wrap: break-word;
   color: rgba(56, 55, 55, 0.8);
   margin-left: 10%;
+  user-select: none;
 }
 .testimonial:hover {
   cursor: pointer;
   border-color: var(--color-primary);
-}
-
-.testimonial__hover {
 }

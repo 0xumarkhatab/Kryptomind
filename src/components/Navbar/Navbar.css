@@ -38,7 +38,7 @@
   text-decoration: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .navItems {
     transform: scale(0);
     display: none;
