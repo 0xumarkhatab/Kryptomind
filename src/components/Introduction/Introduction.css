@@ -114,7 +114,7 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .introduction {
     display: block;
   }
@@ -128,7 +128,7 @@
   }
   .introduction__right > div.top__left > img {
     left: 50px;
-    bottom: 5vh;
+    bottom: 7vh;
   }
 }
 
