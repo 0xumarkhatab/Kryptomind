@@ -18,7 +18,7 @@
   padding: 2rem;
 }
 .services__left h1 {
-  font-size: max(5vw, 35px);
+  font-size: max(4vw, 35px);
   font-family: var(--font-family);
   font-weight: bolder;
   word-wrap: break-word;
