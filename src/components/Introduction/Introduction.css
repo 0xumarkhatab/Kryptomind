@@ -5,19 +5,21 @@
   padding: 2rem;
   margin-top: 80px;
   background-color: red;
+  height: 100vh;
 }
 .services::-webkit-scrollbar {
   display: none;
 }
 
 .introduction__left {
-  flex: 0.5;
+  flex: 0.4;
   width: 60vw;
   margin-bottom: 40px;
 }
 
 .introduction__left > h3 {
   font-size: min(10vw, 4rem);
+  width: min(500px, 40vw);
   line-height: 1.2em;
   font-weight: 600;
   font-family: "Montserrat", Sans-serif;
