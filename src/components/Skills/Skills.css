@@ -8,4 +8,7 @@
   .skills {
     grid-template-columns: auto auto;
   }
+  .skills > .skill {
+    width: 45vw;
+  }
 }

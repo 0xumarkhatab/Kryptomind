@@ -92,7 +92,11 @@ p.product__specifications__values {
   font-family: sans-serif;
   font-size: 17px;
 }
-
+.product__specifications__values > a > img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
 .platform__links {
   display: flex;
   align-items: center;

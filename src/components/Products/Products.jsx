@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import "./Products.css";
 import products from "../../Data/data";
 
-import AppleIcon from "@mui/icons-material/Apple";
-import Web from "@mui/icons-material/Language";
-
 function Products() {
   const [product, setProduct] = useState(undefined);
   console.log("product is ", product);
@@ -69,11 +66,11 @@ function Products() {
                   </a>
                   <a href={product.apple} target="_">
                     {" "}
-                    <AppleIcon />{" "}
+                    <img src="./icons/apple.png" />
                   </a>
                   <a href={product.web} target="_">
                     {" "}
-                    <Web />{" "}
+                    <img src="./icons/web.png" />
                   </a>
                 </div>
                 <p className="product__specifications__values">

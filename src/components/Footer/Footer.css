@@ -94,6 +94,14 @@
   transform: transfrom 400ms ease-in;
   color: black !important;
 }
+.social__media > a > img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  fill: white;
+  border-radius: 50%;
+  margin-left: 10px;
+}
 
 .social__media > a:hover {
   transform: scale(1.2);

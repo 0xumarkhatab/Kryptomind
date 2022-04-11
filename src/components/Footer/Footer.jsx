@@ -1,10 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
 
 function Footer() {
   return (
@@ -59,22 +54,22 @@ function Footer() {
         <div className="social__media">
           <a href="https://www.facebook.com/kryptomindOfficial">
             {" "}
-            <FacebookIcon />
+            <img src="./icons/facebook.png" />
           </a>
           <a href="https://twitter.com/Krypto_mind">
             {" "}
-            <TwitterIcon />{" "}
+            <img src="./icons/twitter.png" />
           </a>
           <a href="https://www.youtube.com/channel/UCrSmEYax1hzppPkHg4pc-Bw/featured">
-            <YouTubeIcon />
+            <img src="./icons/youtube.png" />
           </a>
           <a href="https://www.instagram.com/lifeatkryptomind/">
             {" "}
-            <InstagramIcon />{" "}
+            <img src="./icons/instagram.png" />
           </a>
           <a href="https://www.linkedin.com/company/krypto-mind">
             {" "}
-            <LinkedInIcon />{" "}
+            <img src="./icons/linkedin.png" />
           </a>
         </div>
       </div>

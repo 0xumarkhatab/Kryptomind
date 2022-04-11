@@ -1,15 +1,14 @@
 .skill {
-  padding: 2rem;
-  height: 50vh;
   border: 1px solid grey;
   border-radius: 10px;
-  margin: 20px;
+  margin: 20px 10px 20px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .skill > img {
+  margin-top: 20px;
   width: 60px;
   height: 60px;
   object-fit: contain;
@@ -30,6 +29,7 @@
   word-wrap: break-word;
   color: rgb(56, 55, 55);
   margin-left: 5vw;
+  padding: 40px;
 }
 
 .skill:hover {
