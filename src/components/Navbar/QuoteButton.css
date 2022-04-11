@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .quoteButton,
   .quoteButton__primary {
     display: none;
