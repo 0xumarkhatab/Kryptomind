@@ -3,6 +3,8 @@
   overflow: scroll;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .testimonials::-webkit-scrollbar {
   display: none;
@@ -10,12 +12,14 @@
 
 .testimonials__heading {
   margin: 0 auto;
-  margin-top: 20vh;
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   color: var(--color-primary);
   font-family: var(--font-family);
-  font-size: 1.8vw;
+  font-size: min(30px, 1.8vw);
 }
 .testimonials__messages {
   display: grid;
@@ -39,13 +43,13 @@
   border: 1px solid grey;
   cursor: pointer;
 }
-@media only screen and (max-width: 800px) {
-  .testimonials {
-    grid-template-columns: auto auto;
+@media only screen and (max-width: 1000px) {
+  .testimonials__messages {
+    grid-template-columns: auto;
   }
 }
 @media only screen and (max-width: 600px) {
-  .testimonials {
+  .testimonials__messages {
     grid-template-columns: auto;
   }
   .testimonials__messages > .testimonial {

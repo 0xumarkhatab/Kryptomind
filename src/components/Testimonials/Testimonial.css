@@ -1,5 +1,4 @@
 .testimonial {
-  padding: 2rem;
   border: 1px solid grey;
   margin: 20px;
   display: flex;
@@ -8,6 +7,8 @@
   border-radius: 5px;
   align-items: center;
   box-shadow: 1px 1px 1px 0.4px grey;
+
+  padding: 1rem;
 }
 .testimonial > h3 {
   font-family: var(--font-family2);

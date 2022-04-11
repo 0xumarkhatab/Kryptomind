@@ -4,7 +4,21 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <div className="services">
+      {/* <div className="services">
+        <h1>Services</h1>
+        <a href="https://kryptomind.com/services/#smartcontract">
+          Smart Contracts
+        </a>
+        <a href="https://kryptomind.com/services/#webdevelopment">
+          Web App Development
+        </a>
+        <a href="https://kryptomind.com/services/#mobileapp">
+          Mobile App development
+        </a>
+        <a href="https://kryptomind.com/services/#consultancy">Consultancy</a>
+        <a href="https://kryptomind.com/services/#ico">ICO's</a>
+      </div> */}
+      <div className="Company__Services">
         <h1>Services</h1>
         <a href="https://kryptomind.com/services/#smartcontract">
           Smart Contracts

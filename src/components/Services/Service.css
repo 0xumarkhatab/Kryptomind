@@ -1,23 +1,29 @@
 .service {
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
   animation: fadeIn 2s;
 }
 .service > h1 {
   font-family: var(--font-family);
-  font-size: max(1.5vw, 20px);
+  font-size: max(1.3vw, 20px);
 
   word-wrap: break-word;
   width: max(250px, 25vw);
 }
 .service > p {
-  width: 80%;
+  width: 90%;
   font-weight: 100;
   color: rgb(72, 70, 60);
   font-size: 18px;
   line-height: 1.6rem;
-  margin: 20px;
+  padding-top: 20px;
   margin-left: 0px;
   font-family: sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+  .service {
+    width: 70vw;
+    font-size: 20px;
+  }
 }

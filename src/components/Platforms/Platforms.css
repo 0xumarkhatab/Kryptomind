@@ -1,8 +1,9 @@
 .platforms {
-  padding: 1rem;
+  padding: 10rem;
   height: fit-content;
   background-color: white;
   animation: fadeIn 2s;
+  padding-top: 0;
 }
 .platforms::-webkit-scrollbar {
   display: none;

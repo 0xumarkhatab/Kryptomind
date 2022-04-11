@@ -1,8 +1,8 @@
 .contact {
-  padding: 1rem;
   display: flex;
   background-color: white;
-  padding-top: 40px;
+  padding: 10rem;
+  padding-top: 0;
 }
 .contacts > p {
   display: flex;
@@ -54,8 +54,7 @@
 
 .contact__right {
   flex: 0.4;
-  width: 20vw;
-  margin-right: 10vw;
+  word-wrap: break-word;
 }
 .contact__right > input,
 .contact__right > textarea {
@@ -66,11 +65,11 @@
   border: 1px solid rgb(185, 183, 183);
   border-radius: 5px;
   margin: 5px;
-  width: 100%;
+  width: 40vw;
 }
 .contact__right > textarea {
   height: 10vh;
-  width: 100%;
+  width: 40vw;
   font-family: sans-serif;
 }
 .contact__right > button {

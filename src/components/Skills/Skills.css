@@ -2,13 +2,15 @@
   display: grid;
   grid-template-columns: auto auto auto;
   background: white;
+  padding: 10rem;
 }
 
 @media only screen and (max-width: 800px) {
   .skills {
+    padding: 5rem;
     grid-template-columns: auto auto;
   }
   .skills > .skill {
-    width: 40vw;
+    width: 35vw;
   }
 }

@@ -1,15 +1,14 @@
 .techstack {
-  padding: 1rem;
-  padding-top: 4rem;
   display: flex;
   background: white;
+  padding: 10rem;
 }
 .techstack::-webkit-scrollbar {
   display: none;
 }
 
 .techstack__left {
-  flex: 0.64;
+  flex: 0.6;
 }
 .techstack__left > h3 {
   font-family: var(--font-family2);
@@ -18,7 +17,7 @@
 
 .techstack__left > p {
   font-family: var(--font-family2);
-  font-size: 7vw;
+  font-size: 5vw;
   color: var(--color-primary);
   word-wrap: break-word;
 }
@@ -36,4 +35,15 @@
   font-weight: lighter;
   word-wrap: break-word;
   color: rgb(56, 55, 55);
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .techstack {
+    padding-left: 4rem;
+  }
+  .techstack__right > p {
+    width: 50vw;
+    margin-left: 40px;
+  }
 }

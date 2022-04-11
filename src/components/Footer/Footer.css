@@ -3,29 +3,25 @@
   color: white;
   justify-content: space-around;
   height: fit-content;
-  padding: 10vh;
-  padding-top: 10vh;
+  padding: 10rem;
+  padding-top: 5rem;
   font-family: sans-serif;
 }
 
-.footer > .services {
-  background: transparent;
-}
 .footer > div {
   flex: 0.2;
-  margin-top: 40px;
+  margin: 1rem 2rem 2rem 1rem;
 }
 
 .footer > div {
   display: flex;
   flex-direction: column;
-  width: 20vw;
   line-height: 1.4rem;
 }
 .footer > div > h1 {
-  width: 15vw;
   font-size: min(23px, 8vw);
   margin-bottom: 20px;
+  width: max-content;
 }
 
 .footer > div > a {

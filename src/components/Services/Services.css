@@ -1,5 +1,7 @@
 .services {
   background-color: white;
+  padding: 7rem;
+  padding-bottom: 0;
 }
 .services::-webkit-scrollbar {
   display: none;
@@ -7,7 +9,6 @@
 .services__intro {
   display: flex;
   justify-content: space-between;
-  padding: 10vh;
   align-items: center;
 }
 
@@ -15,7 +16,6 @@
   flex: 0.5;
   display: flex;
   flex-direction: column;
-  padding: 2rem;
 }
 .services__left h1 {
   font-size: max(5vw, 35px);
@@ -50,7 +50,7 @@
 
 .services__right > h3 {
   font-size: max(4vw, 25px);
-
+  width: 30vw;
   margin-bottom: 10px;
 }
 .services__right > p {
@@ -89,12 +89,12 @@
 .services__list {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
   margin-bottom: 0;
 }
 
 .services__list > .service {
-  margin: 30px;
+  margin: 10px;
+  padding-top: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -103,22 +103,20 @@
   }
 
   .services__list > .service {
-    width: 100%;
   }
 }
 @media only screen and (max-width: 800px) {
   .services__list {
     grid-template-columns: auto auto;
   }
-
-  .services__list > .service {
-    width: 80%;
-  }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 1000px) {
+  .services {
+    padding: 10rem;
+  }
   .services__list {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
   }
 }
 @media only screen and (max-width: 400px) {

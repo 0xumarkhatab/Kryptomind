@@ -7,6 +7,7 @@
 .product__information > h1 {
   font-family: var(--font-family2);
   font-size: 25px;
+  animation: fadeIn 2s;
 }
 
 .product__information > p {
@@ -15,12 +16,14 @@
   font-size: 18px;
   line-height: 2rem;
   font-weight: lighter;
+  animation: fadeIn 2s;
 }
 .product__specifications {
   margin-top: 20px;
   display: grid;
   grid-template-columns: auto auto auto;
   width: 100%;
+  animation: fadeIn 2s;
 }
 .product__specifications > p {
   font-family: sans-serif;
@@ -58,6 +61,7 @@ p.product__specifications__values {
   margin-top: 2rem;
   width: 100%;
   object-fit: contain;
+  animation: fadeIn 2s;
 }
 @keyframes fadeIn {
   0% {
