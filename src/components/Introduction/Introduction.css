@@ -4,7 +4,12 @@
   color: white;
   padding: 2rem;
   margin-top: 80px;
+  background-color: red;
 }
+.services::-webkit-scrollbar {
+  display: none;
+}
+
 .introduction__left {
   flex: 0.5;
   width: 60vw;
@@ -54,12 +59,12 @@
 }
 .introduction__right > div.top__left > img {
   position: relative;
-  left: 30%;
+  left: 20%;
 }
 .introduction__right > div.top__right > img {
   position: relative;
   top: 50vh;
-  right: 30%;
+  right: 20%;
 }
 
 /* Animations */
@@ -126,3 +131,58 @@
     bottom: 5vh;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .introduction__right {
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  .introduction__right > div.main > img {
+    height: 40vh;
+    animation: fadeInMainMin 3s;
+  }
+
+  .introduction__right > div.top__left > img,
+  .introduction__right > div.top__right > img {
+    height: 12vh;
+    animation: fadeInCornerMin 3s;
+  }
+  .introduction__right > div.top__left > img {
+    position: relative;
+    left: 25%;
+    top: 10%;
+  }
+  .introduction__right > div.top__right > img {
+    position: relative;
+    top: 40vh;
+    right: 25%;
+  }
+}
+
+/*=============================================
+=            Animations for 300px image fades on introduction            =
+=============================================*/
+
+@keyframes fadeInMainMin {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 40vh;
+  }
+}
+
+@keyframes fadeInCornerMin {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 12vh;
+  }
+}
+
+/*=====  End of Animations for 300px image fades on introduction  ======*/

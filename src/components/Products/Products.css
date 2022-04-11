@@ -4,6 +4,9 @@
 
   background-color: white;
 }
+.products::-webkit-scrollbar {
+  display: none;
+}
 
 .products > .products__heading > h3 {
   color: var(--color-primary);

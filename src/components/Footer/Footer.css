@@ -24,9 +24,8 @@
 }
 .footer > div > h1 {
   width: 15vw;
-  font-size: 20px;
+  font-size: min(23px, 8vw);
   margin-bottom: 20px;
-  font-size: 2vw;
 }
 
 .footer > div > a {
@@ -45,7 +44,8 @@
 }
 
 .footer > .contact__us > a > img {
-  width: 15vw;
+  width: max(80px, 15vw);
+
   object-fit: contain;
   margin-bottom: 1rem;
 }
@@ -119,5 +119,25 @@
   .footer {
     display: grid;
     grid-template-columns: auto;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .footer {
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 5vh;
+  }
+  .social__media > a > img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  .footer > .contact__us > input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    color: grey;
+    border: 1px solid rgb(185, 183, 183);
+    border-radius: 5px;
   }
 }

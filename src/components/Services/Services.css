@@ -1,6 +1,9 @@
 .services {
   background-color: white;
 }
+.services::-webkit-scrollbar {
+  display: none;
+}
 .services__intro {
   display: flex;
   justify-content: space-between;
@@ -15,13 +18,13 @@
   padding: 2rem;
 }
 .services__left h1 {
-  font-size: 5vw;
+  font-size: max(5vw, 35px);
   font-family: var(--font-family);
   font-weight: bolder;
   word-wrap: break-word;
   color: #f6924d;
   line-height: 1.03em;
-  width: 23vw;
+  width: 100%;
 }
 .services__left hr {
   content: " ";
@@ -46,12 +49,14 @@
 }
 
 .services__right > h3 {
-  font-size: 4vw;
+  font-size: max(4vw, 25px);
+
   margin-bottom: 10px;
 }
 .services__right > p {
   line-height: 1.7rem;
   font-size: 18px;
+
   font-weight: lighter;
   color: grey;
   width: 30vw;
@@ -85,11 +90,11 @@
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
-  margin: 30px;
   margin-bottom: 0;
 }
 
 .services__list > .service {
+  margin: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -107,7 +112,7 @@
   }
 
   .services__list > .service {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -116,9 +121,26 @@
     grid-template-columns: auto auto;
   }
 }
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 400px) {
   .services__list {
     grid-template-columns: auto;
+    margin: 10px;
+  }
+  .services__intro {
+    padding: 2vh;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+  }
+  .services__left {
+    width: 70vw;
+  }
+
+  .services__right > p {
+    width: 70vw;
+  }
+  .services__list > .service {
+    width: 80vw;
   }
 }
 

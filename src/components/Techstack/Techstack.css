@@ -4,8 +4,12 @@
   display: flex;
   background: white;
 }
+.techstack::-webkit-scrollbar {
+  display: none;
+}
+
 .techstack__left {
-  flex: 0.66;
+  flex: 0.64;
 }
 .techstack__left > h3 {
   font-family: var(--font-family2);

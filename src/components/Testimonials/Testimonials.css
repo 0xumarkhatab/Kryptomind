@@ -7,6 +7,7 @@
 .testimonials::-webkit-scrollbar {
   display: none;
 }
+
 .testimonials__heading {
   margin: 0 auto;
   margin-top: 20vh;
@@ -20,7 +21,10 @@
   display: grid;
   grid-template-columns: auto auto auto;
 }
-
+.testimonials__messages > .testimonial {
+  width: 40vh;
+  height: 60vh;
+}
 .orange__circle {
   width: 20px;
   content: " ";
@@ -43,5 +47,9 @@
 @media only screen and (max-width: 600px) {
   .testimonials {
     grid-template-columns: auto;
+  }
+  .testimonials__messages > .testimonial {
+    height: 80vh;
+    width: 30vh;
   }
 }

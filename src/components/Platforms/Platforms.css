@@ -3,6 +3,10 @@
   height: fit-content;
   background-color: white;
 }
+.platforms::-webkit-scrollbar {
+  display: none;
+}
+
 .heading {
   display: flex;
   justify-content: center;
@@ -11,6 +15,7 @@
   color: #f6924d;
   font-family: var(--font-family);
 }
+
 .heading > h1 {
   margin-top: 20px;
 }
@@ -23,8 +28,8 @@
 .platforms__list > p {
   font-family: var(--font-family);
   color: grey;
-  font-size: 2.5vw;
-  margin-left: 50px;
+  font-size: max(2.5vw, 17px);
+  margin-left: 30px;
   margin-top: 50px;
 }
 .platforms__list > p:hover {
