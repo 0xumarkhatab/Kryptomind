@@ -90,6 +90,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   margin-bottom: 0;
+  padding-top: 4rem;
 }
 
 .services__list > .service {

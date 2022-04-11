@@ -3,7 +3,6 @@
   height: fit-content;
   background-color: white;
   animation: fadeIn 2s;
-  padding-top: 0;
 }
 .platforms::-webkit-scrollbar {
   display: none;
